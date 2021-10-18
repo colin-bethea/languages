@@ -3,8 +3,8 @@
 */
 
 /* Importing packages */
-import java.util.*;
 import java.security.*;
+import java.util.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -21,7 +21,9 @@ public class Demo {
     }
     /* Make a sample request (from Request.java) */
     try {
-      System.out.println(Request.get("https://jsonplaceholder.typicode.com/posts"));
+      System.out.println(
+        Request.get("https://jsonplaceholder.typicode.com/posts")
+      );
     } catch (Exception exception) {
       exception.printStackTrace();
     }
