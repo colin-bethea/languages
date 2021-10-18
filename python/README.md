@@ -17,7 +17,14 @@ pip3 install requests
 ### Write your code
 
 ```python
-# TODO
+import requests
+
+def demo(method="", url="", data=None):
+    response = requests.request(method, url, data=data)
+    print(response.content)
+
+demo('GET', "https://jsonplaceholder.typicode.com/posts")
+
 ```
 
 ### Run your code
