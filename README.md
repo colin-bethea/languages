@@ -1,4 +1,4 @@
-# Languages 📚
+# 📐 Languages
 
 A set of simple guides/walkthroughs for popular programming languages - primarily focused on practical tasks (eg: imports, requests, etc).
 
