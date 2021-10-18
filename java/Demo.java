@@ -2,24 +2,22 @@
 --- Demo (Java) ---
 */
 
-/* Importing packages */
+// Import libraries
 import java.security.*;
 import java.util.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/* Import custom classes */
-
-/* Defining classes */
+// Define a "Demo" class (same as classpath Demo.java)
 public class Demo {
 
-  /* Defining methods */
+  // Define main() method as entry-point
   public static void main(String[] args) {
-    /* Print STDIN */
+    // Loop through and print stdin (command-line arguments)
     for (int i = 0; i < args.length; i++) {
       System.out.println(args[i]);
     }
-    /* Make a sample request (from Request.java) */
+    // Make a sample request (from Request.java)
     try {
       System.out.println(
         Request.get("https://jsonplaceholder.typicode.com/posts")
