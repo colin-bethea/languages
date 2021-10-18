@@ -32,6 +32,11 @@ public class Demo {
 
 ```bash
 javac MyClass.java
+```
+
+### Run your code
+
+```java
 java MyClass
 ```
 
